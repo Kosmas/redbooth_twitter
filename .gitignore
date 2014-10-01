@@ -19,3 +19,4 @@
 /config/secrets.yml
 
 # DO NOT add database.yml in version control
+/config/database.yml
