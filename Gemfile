@@ -45,3 +45,7 @@ gem 'rspec-rails', '~> 3.1.0', group: :test
 
 # API gems
 gem 'twitter', '~> 5.11.0'
+
+# Omniauth gems
+gem 'omniauth', '~> 1.2.2'
+gem 'omniauth-twitter', '1.0.1'
