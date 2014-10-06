@@ -41,7 +41,8 @@ gem 'spring',        group: :development
 # Testing gems
 gem 'cucumber-rails', '~> 1.4.1', group: :test, require: false
 gem 'database_cleaner', '~> 1.3.0', group: :test
-gem 'rspec-rails', '~> 3.1.0', group: :test
+gem 'rspec-rails', '~> 3.1.0', group: [:test, :development]
+gem 'capybara', '~> 2.4.3', group: :test
 
 # API gems
 gem 'twitter', '~> 5.11.0'
