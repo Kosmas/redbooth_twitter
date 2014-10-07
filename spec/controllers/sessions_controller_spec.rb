@@ -27,6 +27,7 @@ RSpec.describe SessionsController, type: :controller  do
       post 'create', provider: :twitter
       expect(User.count).to eq(1)
       expect(response).to redirect_to('/')
+      expect(request.flash[:notice]).to_not be_nil
     end
   end
 end

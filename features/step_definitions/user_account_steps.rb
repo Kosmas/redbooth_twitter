@@ -9,4 +9,5 @@ end
 
 Then(/^I should be able to create a user account$/) do
    expect(User.count).to eq(1)
+   expect(page).to have_content('Signed in with Twitter!')
 end
