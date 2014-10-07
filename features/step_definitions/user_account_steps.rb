@@ -4,10 +4,9 @@ Given(/^I am a new user with name "(.*?)"$/) do |name|
 end
 
 When(/^I go to sign up with Twitter$/) do
-  visit 'Sign up with Twitter'
-  click 'Twitter'
+  visit signin_path
 end
 
-Then(/^I should be able to creat a user account$/) do
-    pending # express the regexp above with the code you wish you had
+Then(/^I should be able to create a user account$/) do
+   expect(User.count).to eq(1)
 end
