@@ -49,4 +49,5 @@ gem 'twitter', '~> 5.11.0'
 
 # Omniauth gems
 gem 'omniauth', '~> 1.2.2'
-gem 'omniauth-twitter', '1.0.1'
+gem 'omniauth-twitter', '~> 1.0.1'
+gem 'omniauth-redbooth', '~> 0.0.2'

@@ -30,4 +30,11 @@ RSpec.describe SessionsController, type: :controller  do
       expect(request.flash[:notice]).to_not be_nil
     end
   end
+
+  describe "GET 'redbooth'" do
+    it "redirects users to redbooth authentication" do
+      get 'redbooth'
+      expect(response).to redirect_to('/auth/redbooth')
+    end
+  end
 end

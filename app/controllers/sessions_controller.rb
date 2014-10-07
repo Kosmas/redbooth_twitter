@@ -10,6 +10,10 @@ class SessionsController < ApplicationController
     redirect_to root_path, notice: 'Signed in with Twitter!'
   end
 
+  def redbooth
+    redirect_to '/auth/redbooth'
+  end
+
   protected
   
   def auth_hash
