@@ -48,6 +48,6 @@ gem 'capybara', '~> 2.4.3', group: :test
 gem 'twitter', '~> 5.11.0'
 
 # Omniauth gems
-gem 'omniauth', '~> 1.2.2'
+gem 'omniauth', '~> 1.4.2'
 gem 'omniauth-twitter', '~> 1.0.1'
 gem 'omniauth-redbooth', '~> 0.0.2'
